@@ -1,8 +1,8 @@
 import React from "react";
 import reactDOM from "react-dom";
-import Arena from "./components/Arena";
+import World from './component/World'
 
 const root = document.getElementById('root');
 reactDOM.render(
-    <div><Arena/></div>
+    <div><World/></div>
     ,root)
